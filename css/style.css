@@ -1,0 +1,122 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+/*Personalização*/
+.logosuasvendas{
+    width: 10em;
+}
+
+
+.btn-busca{
+    background-color: #132d79;
+    color: #fff;
+}
+
+.btn-busca:hover{
+    background-color: #fff;
+    color: #132d79;
+    border: 3px solid #132d79;
+}
+
+
+.cabecalho{        
+    padding: 10em;
+    text-align: center !important;
+    width: 100%;
+}
+
+.cabecalho h1{ 
+    font-size: 5em;
+    text-shadow: 5px 3px 8px #cccccc;
+    color: #132d79;
+}
+
+.bg-dark{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.30885857761073177) -7%, rgba(19,45,121,1) 95%);
+    box-shadow: 2px 3px 5px -2px #ccc;
+}
+
+.nav-item a{
+    color: #fff;
+}
+
+.nav-item a:hover{
+    color: #132d79;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navbar-toggler{
+    background-color: #132d79 !important;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-secondary{
+    background: #132d79;
+}
+
+/*Cards funcionalidades*/
+.funcionalidade{
+    padding: 2%;
+    border-radius: 0.5px solid #ccc;
+    text-align: center;
+    width: 95% !important;
+    margin: 2%;
+    height: 30em ;
+    border-radius: 10px;    
+    box-shadow: 1px 1px 2.5px #ccc;
+}
+
+.funcionalidade h2{
+    margin-top: 3%;
+}
+
+.funcionalidade:hover{    
+    box-shadow: 10px 10px 7px #ccc;
+    border: 2px solid #132d79;
+    color: #132d79;
+}
+
+#footer2{
+    text-align: center !important;
+}
+
+@media(max-width: 700px){
+    .cabecalho{    
+       padding: 2em !important;
+       margin-top: 6em !important;
+    } 
+    
+    .cabecalho h1{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .cabecalho h5{
+        font-size: 0.9em;
+    }
+    
+    .navbar a{
+        text-align: center !important;
+    }
+
+    .btn-busca{
+        text-align: center;
+        width: 100% !important;
+    }
+}
